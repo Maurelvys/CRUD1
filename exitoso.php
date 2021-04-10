@@ -14,7 +14,7 @@
 
     <?php
 
-        $conexion = mysqli_connect("localhost", "Maurelvys", "elpilar2021", "Zapateria") or
+        $conexion = mysqli_connect("localhost", "nombre usuario", "clave usuario", "nombre BDD") or
         die("Problemas con la conexión");
 
         mysqli_query($conexion, "UPDATE Zapatos SET Marca= '$_POST[marcaZapatos]',
