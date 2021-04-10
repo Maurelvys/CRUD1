@@ -16,7 +16,7 @@
 
         <?php
 
-        $conexion = mysqli_connect("localhost", "Maurelvys", "elpilar2021", "Zapateria") or
+        $conexion = mysqli_connect("localhost", "nombre usuario", "clave usuario", "nombre BDD") or
         die("Problemas con la conexión");
 
         $consulta = mysqli_query($conexion, "select * from Zapatos where Referencia='$_POST[refAct]'") or
