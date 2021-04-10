@@ -14,7 +14,7 @@
 
     <?php
 
-        $conexion=mysqli_connect ("localhost", "Maurelvys", "elpilar2021", "Zapateria")
+        $conexion=mysqli_connect ("localhost", "nombre usuario", "clave usuario", "nombre BDD")
         or die("Problemas con la conexion");
 
         mysqli_query($conexion,"insert into Zapatos(Referencia, Marca, Color, Talla) 
