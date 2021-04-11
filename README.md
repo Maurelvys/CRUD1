@@ -40,7 +40,7 @@ Una vez ingresado el dato en la pagina anterior, se procede a conectar con la ba
 Para culminar con la actualizacion de los datos, se vuelve a realizar la conexion con la Base de Datos; pero esta vez para iniciar con la actualizacion por parte del usuario; por lo que, justo aca se realiza el cambio y se guarda en el registro.
 
 ## 10° borrarUnoAno.php
-Por ultimo pero no menos importante, el programa permite borrar datos del registro. Para ello, lo primero que se hace es crear un formulario con el metodo POST para solcitar el dato principal que nos llevara a la informacion general del producto que se desea eliminar.
+Por ultimo pero no menos importante, el programa permite borrar datos del registro. Para ello, lo primero que se hace es crear un formulario con el metodo POST para solicitar el dato principal que nos llevara a la informacion general del producto que se desea eliminar.
 
 ## 11° unoAUno.php
-Para culminar el proceso, se pasa a conectar con la base de datos, seguidamente se realiza la seleccion del producto a eliminar y por ultimo se eliminan los datos de nuestro registro.
+Para culminar el proceso, se pasa a conectar con la base de datos, seguidamente se realiza la seleccion del producto a eliminar y por ultimo se eliminan los datos de nuestro registro. Cabe resaltar que no se eliminaran todos los datos que se encuentren registrados; sino unicamente el indicado por el usuario.
