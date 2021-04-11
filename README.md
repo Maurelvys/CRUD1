@@ -1,7 +1,7 @@
 ## Mi Primer CRUD
 
 Un CRUD es un programa con el que aquellos programadores que recién se inician, pueden dar sus primeros pasos fácilmente.
-Esta palabra es un acrónimo que significa C (Crear), R (Leer), U (Actualizar) y D (Eliminar).
+Esta palabra es un acrónimo que significa C (Create), R (Read), U (Update) y D (Delete).
 Dicho de mejor manera; un CRUD debe poder insertar, leer, actualizar y eliminar datos.
 
 Para la realización de este CRUD se utilizaron PHP y MySQL; para mostrar una interfaz adecuada, se utilizó HTML.
@@ -18,7 +18,7 @@ En este se realizo el menú principal. Para ello, se utilizó HTML para la inter
 Por medio de un formulario con el metodo POST, se solicita la informacion que el usuario desea registrar, para posteriormente pasar a la siguiente direccion con un registro exitoso.
 
 ## 3° guardar.php
-En el fichero guardar, se van a ir registrando los datos introducidos por el usuario. Para ello, se debe realizar la conexion con la Base de Datos, luego el comando insert para ir guandando cada dato.
+En el fichero guardar, se van a ir registrando los datos introducidos por el usuario. Para ello, se debe realizar la conexion con la Base de Datos, luego el comando insert para ir guardando cada dato.
 
 ## 4° Consulta.php
 En este punto, se inicia directamente con la conexion de la Base de Datos; pues, aca se seleccionan todos los registros que se encuentran ya dentro del sistema.
