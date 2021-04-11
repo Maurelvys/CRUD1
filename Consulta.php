@@ -17,8 +17,7 @@
 
     <?php
 
-    $conexion=mysqli_connect ("localhost", "Maurelvys", "elpilar2021", "Zapateria")
-    or die("Problemas al conectar con la base de datos");
+    $conexion=mysqli_connect ("localhost", "nombre usuario", "clave usuario", "nombre BDD")
 
     $consulta=mysqli_query($conexion,"select * from Zapatos")
     or die ("Problemas en la seleccion". mysqli_error($conexion));
