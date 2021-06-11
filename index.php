@@ -12,7 +12,7 @@
 <body>
 
 
-<header style="text-align: center"><h3>MENU DE OPCIONES PARA REGISTRO DE ZAPATOS</h3></header><br>
+<header style="text-align: center"><h3>MENU DE OPCIONES</h3></header><br>
 
 <div style="color: #3015af; height:200px; width:150px; background-color: deepskyblue; text-align: center; position:relative; left:40%" >
 
